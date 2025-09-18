@@ -64,7 +64,12 @@ namespace elagazasgyakorlok1
             else
                 Console.WriteLine("Nem talált, nagyobb szám");
                 
-
+        Console.WriteLine("Adj meg egy számot: ");
+            int joszam = int.Parse(Console.ReadLine());
+            if (szam > 0 && szam % 2 == 0)
+                Console.WriteLine("A szám pozitív és páros");
+            else
+                Console.WriteLine("A szám nem pozítív és páros");
         }
     }
 }
