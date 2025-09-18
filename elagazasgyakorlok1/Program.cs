@@ -70,6 +70,19 @@ namespace elagazasgyakorlok1
                 Console.WriteLine("A szám pozitív és páros");
             else
                 Console.WriteLine("A szám nem pozítív és páros");
+
+            Console.WriteLine("Adj meg egy karaktert: ");
+            char character = Console.ReadKey().KeyChar;
+
+            if (char.IsDigit(character))
+                Console.WriteLine("Ez egy szám");
+            else if (char.IsLetter(character))
+                Console.WriteLine("Ez egy betű");
+            else 
+                Console.WriteLine("Se nem szám, se nem betű");
+
+
+
         }
     }
 }
