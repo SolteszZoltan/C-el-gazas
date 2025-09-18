@@ -42,6 +42,18 @@ namespace elagazasgyakorlok1
                 Console.WriteLine("Nem szavazhat");
             else 
                 Console.WriteLine("Szavazhat");
+
+            Console.WriteLine("Add meg az értékelést (1-5): ");
+            int jegy = int.Parse(Console.ReadLine());
+            if (jegy == 1 || jegy == 2)
+                Console.WriteLine("Elégtelen");
+            else if (jegy == 3)
+                Console.WriteLine("Elégséges");
+            else if (jegy == 4)
+                Console.WriteLine("jó");
+            else
+                Console.WriteLine("jeles");
+                    ""
         }
     }
 }
