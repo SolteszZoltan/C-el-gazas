@@ -59,9 +59,12 @@ namespace elagazasgyakorlok1
             int szamkitalalos = int.Parse(Console.ReadLine());
             if (szamkitalalos == kitalal)
                 Console.WriteLine("Eltaláltad");
+            else if (szamkitalalos > kitalal)
+                Console.WriteLine("Nem talált, kisebb szám");
             else
-                Console.WriteLine("Nem talált");
-    
+                Console.WriteLine("Nem talált, nagyobb szám");
+                
+
         }
     }
 }
