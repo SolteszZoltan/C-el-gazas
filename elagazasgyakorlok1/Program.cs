@@ -88,6 +88,20 @@ namespace elagazasgyakorlok1
                 Console.WriteLine("Helyes jelszó!");
             else Console.WriteLine("Helytelen jelszó");
 
+            Console.WriteLine("Adj meg egy számot: ");
+            int szam1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Adj meg még egy számot: ");
+            int szam2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Adj meg egy harmadik számot: ");
+            int szam3 = int.Parse(Console.ReadLine());
+            if (szam1 > szam2 && szam1 > szam3)
+                Console.WriteLine("A legnagyobb szám a" + " " + szam1);
+            else if (szam2 > szam1 && szam2 > szam3)
+                Console.WriteLine("A legnagyobb szám a" + " " + szam2);
+            else
+                Console.WriteLine("A legnagyobb szám a" + " " + szam3);
+                     
+
         }
     }
 }
