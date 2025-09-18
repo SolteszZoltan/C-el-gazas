@@ -1,0 +1,7 @@
+C:\Users\solteszz\source\repos\elagazasgyakorlok1\elagazasgyakorlok1\bin\Debug\elagazasgyakorlok1.exe.config
+C:\Users\solteszz\source\repos\elagazasgyakorlok1\elagazasgyakorlok1\bin\Debug\elagazasgyakorlok1.exe
+C:\Users\solteszz\source\repos\elagazasgyakorlok1\elagazasgyakorlok1\bin\Debug\elagazasgyakorlok1.pdb
+C:\Users\solteszz\source\repos\elagazasgyakorlok1\elagazasgyakorlok1\obj\Debug\elagazasgyakorlok1.csproj.AssemblyReference.cache
+C:\Users\solteszz\source\repos\elagazasgyakorlok1\elagazasgyakorlok1\obj\Debug\elagazasgyakorlok1.csproj.CoreCompileInputs.cache
+C:\Users\solteszz\source\repos\elagazasgyakorlok1\elagazasgyakorlok1\obj\Debug\elagazasgyakorlok1.exe
+C:\Users\solteszz\source\repos\elagazasgyakorlok1\elagazasgyakorlok1\obj\Debug\elagazasgyakorlok1.pdb
