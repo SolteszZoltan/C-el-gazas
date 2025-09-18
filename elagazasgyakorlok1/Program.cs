@@ -23,6 +23,19 @@ namespace elagazasgyakorlok1
             else
                 Console.WriteLine("Nulla");
 
+            Console.WriteLine("Add meg egy hónapnak a sorszámát");
+            int honap = int.Parse(Console.ReadLine());
+            if (honap == 1 || honap == 2 || honap == 12)
+                Console.WriteLine("A hónap a Tél-hez tartozik");
+            else if (honap == 3 || honap == 4 || honap == 5)
+                Console.WriteLine("A hónap a Tavasz-hoz tartozik");
+            else if (honap == 6 || honap == 7 || honap == 8)
+                Console.WriteLine("A hónap a Nyár-hoz tartozik");
+            else if (honap > 12)
+                Console.WriteLine("Nincs ilyen hónap");
+            else
+                Console.WriteLine("A hónap az Ősz-höz tartozik");
+
         }
     }
 }
