@@ -36,6 +36,12 @@ namespace elagazasgyakorlok1
             else
                 Console.WriteLine("A hónap az Ősz-höz tartozik");
 
+            Console.WriteLine("Add meg a korod: ");
+            int kor = int.Parse(Console.ReadLine());
+            if (kor < 18)
+                Console.WriteLine("Nem szavazhat");
+            else 
+                Console.WriteLine("Szavazhat");
         }
     }
 }
