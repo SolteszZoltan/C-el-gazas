@@ -53,7 +53,15 @@ namespace elagazasgyakorlok1
                 Console.WriteLine("jó");
             else
                 Console.WriteLine("jeles");
-                    ""
+
+            int kitalal = 5;
+            Console.WriteLine("Találd ki a számot amire gondoltam: ");
+            int szamkitalalos = int.Parse(Console.ReadLine());
+            if (szamkitalalos == kitalal)
+                Console.WriteLine("Eltaláltad");
+            else
+                Console.WriteLine("Nem talált");
+    
         }
     }
 }
