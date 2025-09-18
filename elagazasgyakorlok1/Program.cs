@@ -66,7 +66,7 @@ namespace elagazasgyakorlok1
                 
         Console.WriteLine("Adj meg egy számot: ");
             int joszam = int.Parse(Console.ReadLine());
-            if (szam > 0 && szam % 2 == 0)
+            if (joszam > 0 && joszam % 2 == 0)
                 Console.WriteLine("A szám pozitív és páros");
             else
                 Console.WriteLine("A szám nem pozítív és páros");
