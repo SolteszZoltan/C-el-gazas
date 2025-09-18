@@ -81,7 +81,12 @@ namespace elagazasgyakorlok1
             else 
                 Console.WriteLine("Se nem szám, se nem betű");
 
-
+            string jelszo = "titok123";
+            Console.WriteLine("Add meg a jelszót");
+            string jelszokitalalas = Console.ReadLine();
+            if (jelszokitalalas == jelszo)
+                Console.WriteLine("Helyes jelszó!");
+            else Console.WriteLine("Helytelen jelszó");
 
         }
     }
